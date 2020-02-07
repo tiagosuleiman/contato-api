@@ -43,7 +43,7 @@ in terminal:
 
 in terminal:
 
- >> git clone https://github.com/tiagosuleiman/springboot
+ >> git clone https://github.com/tiagosuleiman/contato-api
  
  >> heroku create awts-contato-api
  
