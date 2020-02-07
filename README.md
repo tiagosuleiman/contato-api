@@ -14,9 +14,11 @@
 ===================================================
 # GIT: create new repository
 ===================================================
+
 in page: create new repository
 
 in folder project:
+
 in terminal:
 
   >> echo "# contato-api" >> README.md
@@ -34,8 +36,10 @@ in terminal:
 ===================================================
 # Config Heroku deploy
 ===================================================
-install heroku cli: sudo npm install -g heroku
-  heroku login
+  
+  install heroku cli: sudo npm install -g heroku
+  
+  heroku login:
 
 in terminal:
 
@@ -44,6 +48,7 @@ in terminal:
  >> heroku create awts-contato-api
  
  >> git push heroku master (já faz o deploy)
+    
     remote: -----> Launching...
     remote:        Released v5
     remote:        https://awts-contato-api.herokuapp.com/ deployed to Heroku
